@@ -1,0 +1,12 @@
+list=['hosein','mohammad','ali','arad','arshia','mahdiar']
+print(list)
+person1=input('enter name: ')
+location1=int(input('enyter your marked location: '))
+list.insert(location1,person1)
+person2=input('enter name: ')
+location2=int(input('enyter your marked location: '))
+list.insert(location2,person2)
+person3=input('enter name: ')
+location3=int(input('enyter your marked location: '))
+list.insert(location3,person3)
+print(list)
